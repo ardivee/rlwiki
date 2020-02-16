@@ -12,7 +12,7 @@
                     <div class="collapsible-body" {% if page.url contains cat %}style="display: block;" {% endif %}>
                         <ul>
                             {% for sub-item in item.sub-category %}
-                            <li><a href="{{ sub-item.link }}" {% if page.url == sub-item.link %}class="active-page"
+                            <li><a href="{{ site.baseurl }}{{ sub-item.link }}" {% if page.url == sub-item.link %}class="active-page"
                                     {% endif %}>{{ sub-item.name }}</a></li>
                             {% endfor %}
                         </ul>
@@ -21,7 +21,7 @@
             </ul>
         </li>
         {% else %}
-        <li class="bold"><a href="{{ item.link }}" {% if page.url == item.link %}class="active-page"
+        <li class="bold"><a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="active-page"
                 {% endif %}>{{ item.category }}</a></li>
         {% endif %}
 
