@@ -1,0 +1,30 @@
+<header>
+    <ul class="sidenav sidenav-fixed">
+        <li>
+            Rocket League Modding
+        </li>
+        {% for item in site.data.sidebar %}
+        {% if item.sub-category.size > 0 %}
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                {% assign cat = item.category | downcase %}
+                <li class="bold"><a class="collapsible-header">{{ item.category }}</a>
+                    <div class="collapsible-body" {% if page.url contains cat %}style="display: block;" {% endif %}>
+                        <ul>
+                            {% for sub-item in item.sub-category %}
+                            <li><a href="{{ sub-item.link }}" {% if page.url == sub-item.link %}class="active-page"
+                                    {% endif %}>{{ sub-item.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        {% else %}
+        <li class="bold"><a href="{{ item.link }}" {% if page.url == item.link %}class="active-page"
+                {% endif %}>{{ item.category }}</a></li>
+        {% endif %}
+
+        {% endfor %}
+    </ul>
+</header>

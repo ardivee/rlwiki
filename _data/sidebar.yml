@@ -1,0 +1,7 @@
+- category: Getting Started
+  link: /pages/getting-started
+- category: Audio
+  link: /audio
+  sub-category:
+    - name: Load Bank
+      link: /pages/audio/load-bank

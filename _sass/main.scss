@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    background-color: #1F1F1F;
+    color: #fff;
+  }
+
+  .sidenav {
+      background-color: #282828 !important;
+  }
+
+  .collapsible-body {
+      background-color: #3E3E3E !important;
+  }
+
+  .sidenav li > a {
+      color: #fff;
+  }
+
+  .collapsible-header {
+      padding: 0 32px !important;
+  }
+
+  .active-page {
+      color: orange !important;
+      background-color: #525252 !important;
+  }
+
+  .page-footer {
+      padding-top: 0;
+      background-color: #282828;
+  }
