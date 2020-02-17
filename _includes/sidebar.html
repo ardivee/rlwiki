@@ -1,18 +1,24 @@
 <header>
     <ul class="sidenav sidenav-fixed">
         <li>
-            Rocket League Modding
+            <a class="sidebar-logo-url" href="/">
+                <div class="user-view">
+                    <div class="background">
+                        <img class="sidebar-logo" src="/assets//img/logo.png">
+                    </div>
+                </div>
+            </a>
         </li>
         {% for item in site.data.sidebar %}
         {% if item.sub-category.size > 0 %}
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                {% assign cat = item.category | downcase %}
-                <li class="bold"><a class="collapsible-header">{{ item.category }}</a>
-                    <div class="collapsible-body" {% if page.url contains cat %}style="display: block;" {% endif %}>
+                <li class="bold {% if page.url contains item.name %}active{% endif %}"><a class="collapsible-header">{{ item.category }}</a>
+                    <div class="collapsible-body" {% if page.url contains item.name %}style="display: block;"{% endif %}>
                         <ul>
                             {% for sub-item in item.sub-category %}
-                            <li><a href="{{ site.baseurl }}{{ sub-item.link }}" {% if page.url == sub-item.link %}class="active-page"
+                            <li><a href="{{ site.baseurl }}{{ sub-item.link }}"
+                                    {% if page.url == sub-item.link %}class="active-page"
                                     {% endif %}>{{ sub-item.name }}</a></li>
                             {% endfor %}
                         </ul>

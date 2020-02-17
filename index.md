@@ -2,4 +2,6 @@
 layout: default
 title: Home
 ---
-# Home
+# Rocket League Modding Wiki
+
+Welcome to this wiki!

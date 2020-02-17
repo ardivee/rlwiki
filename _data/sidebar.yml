@@ -1,7 +1,18 @@
-- category: Getting Started
+- category: Getting Started <i class="material-icons">info</i>
   link: /pages/getting-started
-- category: Audio
-  link: /audio
+- category: Assets <i class="material-icons">archive</i>
+  name: assets
+  link: /pages/audio
+  sub-category:
+    - name: Dummy Assets
+      link: /pages/assets/dummy-assets
+    - name: Dummy Classes
+      link: /pages/assets/dummy-classes
+- category: Audio <i class="material-icons">audiotrack</i>
+  name: audio
+  link: /pages/audio
   sub-category:
     - name: Load Bank
       link: /pages/audio/load-bank
+    - name: Event List
+      link: /pages/audio/event-list
