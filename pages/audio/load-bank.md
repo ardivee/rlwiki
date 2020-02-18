@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Audio Ambient
+title: Load Bank
 permalink: /pages/audio/load-bank
 ---
 # Load Bank

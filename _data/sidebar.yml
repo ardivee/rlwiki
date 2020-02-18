@@ -16,3 +16,9 @@
       link: /pages/audio/load-bank
     - name: Event List
       link: /pages/audio/event-list
+- category: UDK <i class="material-icons">developer_mode</i>
+  name: udk
+  link: /pages/udk
+  sub-category:
+    - name: Boost Pads
+      link: /pages/udk/boost-pads
