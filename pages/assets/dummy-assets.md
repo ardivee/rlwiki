@@ -36,3 +36,5 @@ permalink: /pages/assets/dummy-assets
 | Package | Link | Credits | Updated At |
 | ----------- | ----------- | ----------- | ----------- |
 | Park_P | <a id="download-source" class="btn waves-effect waves-light" href="{{ park_p_link }}" target="_blank">***PARK P***{{ download_icon }}</a> | Derzo, Ardivee | 2/18/2020 |
+
+**Last Updated: {% last_modified_at %b %d, %Y %}**

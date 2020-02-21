@@ -27,8 +27,25 @@ blockquote {
   background-color: #3e3e3e;
 }
 
+
 .container {
   margin-left: 300px;
+}
+
+header {
+  background-color: #282828;
+  height: 0;
+}
+
+@media only screen and (max-width : 992px) {
+  .container {
+    margin-left: 0;
+  }
+
+  header {
+    height: auto;
+  }
+  
 }
 
 .sidenav {

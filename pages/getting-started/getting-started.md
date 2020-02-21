@@ -20,3 +20,5 @@ permalink: /pages/getting-started
 
 
 ![Unreal Development Kit](/assets/img/udk-logo.png "Unreal Development Kit")
+
+**Last Updated: {% last_modified_at %b %d, %Y %}**

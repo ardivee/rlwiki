@@ -7,6 +7,12 @@ permalink: /pages/udk/boost-pads
 
 ---
 
+#### Limitations
+
+###### - This only works properly for the host, all other clients won't see the FX but do get the Boost.
+
+---
+
 #### Requirements
 
 ---
@@ -44,3 +50,5 @@ permalink: /pages/udk/boost-pads
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pad | 0.12 | Boost_Pickup_Pad_Local | BoostType_Pad | 4 | BoostPad_FXActor |
 | Pill | 9999 | Boost_Pickup_Pill_Local | BoostType_Pill | 10 | BoostPill_FXActor |
+
+**Last Updated: {% last_modified_at %b %d, %Y %}**

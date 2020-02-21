@@ -10,6 +10,14 @@ permalink: /pages/assets/dummy-classes
 ###### Dummy Classes are used as a placeholder for the actual Rocket League Classes, this way we can setup our maps!
 ##### *NOTE: These are updated classes ( V3 )*
 
+#### Dummy Classes V2
+
+###### - If you have installed  Dummy Classes V2, you have to delete 2 files to prevent duplicates.
+###### - The files ```AKSoundCue.uc``` and ```AKSoundSource.uc```
+###### - They are located in ```UDK/Development/src/TAGame```
+
+---
+
 #### Installation
 
 ---
@@ -44,3 +52,5 @@ permalink: /pages/assets/dummy-classes
 ###### - Click on Script > Full Recompile and wait till it's done. You can now close it.
 
 ###### - Open UDK and you should now have all the Dummy Classes loaded!
+
+**Last Updated: {% last_modified_at %b %d, %Y %}**
