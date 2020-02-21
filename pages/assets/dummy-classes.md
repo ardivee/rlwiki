@@ -3,6 +3,7 @@ layout: default
 title: Dummy Classes
 permalink: /pages/assets/dummy-classes
 ---
+{% assign last_modified_at = "21 Feb, 2020"%}
 # Dummy Classes
 
 ---
@@ -53,4 +54,4 @@ permalink: /pages/assets/dummy-classes
 
 ###### - Open UDK and you should now have all the Dummy Classes loaded!
 
-**Last Updated: {% last_modified_at %b %d, %Y %}**
+**Last Updated: {{ last_modified_at }}**

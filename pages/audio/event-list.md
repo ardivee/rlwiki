@@ -3,6 +3,7 @@ layout: default
 title: Event List
 permalink: /pages/audio/event-list
 ---
+{% assign last_modified_at = "21 Feb, 2020"%}
 # Event List
 
 {:.responsive-table}
@@ -46,4 +47,4 @@ permalink: /pages/audio/event-list
 | SFX_UI_MainMenu | Play_UI_Popup_Modal_Anim_Start | | 15 | <audio controls><source src="/assets/audio/sfx_ui_mainmenu/0015.ogg" type="audio/ogg"></audio> |
 | SFX_UI_MainMenu | Play_UI_Popup_Modal_Anim_Transition | | 8 | <audio controls><source src="/assets/audio/sfx_ui_mainmenu/0008.ogg" type="audio/ogg"></audio> |
 
-**Last Updated: {% last_modified_at %b %d, %Y %}**
+**Last Updated: {{ last_modified_at }}**

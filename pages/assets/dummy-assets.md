@@ -3,7 +3,7 @@ layout: default
 title: Dummy Assets
 permalink: /pages/assets/dummy-assets
 ---
-
+{% assign last_modified_at = "21 Feb, 2020"%}
 {% assign download_icon = '<i class="material-icons right">file_download</i>' %}
 {% assign park_p_link = "https://drive.google.com/open?id=1yVptYJA9-SRrtaqrwMkC-FFaR8tqV8cr" %}
 
@@ -37,4 +37,4 @@ permalink: /pages/assets/dummy-assets
 | ----------- | ----------- | ----------- | ----------- |
 | Park_P | <a id="download-source" class="btn waves-effect waves-light" href="{{ park_p_link }}" target="_blank">***PARK P***{{ download_icon }}</a> | Derzo, Ardivee | 2/18/2020 |
 
-**Last Updated: {% last_modified_at %b %d, %Y %}**
+**Last Updated: {{ last_modified_at }}**

@@ -3,6 +3,7 @@ layout: default
 title: Getting Started
 permalink: /pages/getting-started
 ---
+{% assign last_modified_at = "21 Feb, 2020"%}
 # Getting Started
 
 #### Learn how to start modding Rocket League!
@@ -21,4 +22,4 @@ permalink: /pages/getting-started
 
 ![Unreal Development Kit](/assets/img/udk-logo.png "Unreal Development Kit")
 
-**Last Updated: {% last_modified_at %b %d, %Y %}**
+**Last Updated: {{ last_modified_at }}**

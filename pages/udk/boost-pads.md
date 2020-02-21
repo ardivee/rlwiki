@@ -3,6 +3,7 @@ layout: default
 title: Boost Pads
 permalink: /pages/udk/boost-pads
 ---
+{% assign last_modified_at = "21 Feb, 2020"%}
 # Boost Pads
 
 ---
@@ -51,4 +52,4 @@ permalink: /pages/udk/boost-pads
 | Pad | 0.12 | Boost_Pickup_Pad_Local | BoostType_Pad | 4 | BoostPad_FXActor |
 | Pill | 9999 | Boost_Pickup_Pill_Local | BoostType_Pill | 10 | BoostPill_FXActor |
 
-**Last Updated: {% last_modified_at %b %d, %Y %}**
+**Last Updated: {{ last_modified_at }}**

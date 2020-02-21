@@ -1,6 +1,3 @@
 baseurl: 
 
 site-name: Rocket League Modding
-
-plugins:
-  - jekyll-last-modified-at
