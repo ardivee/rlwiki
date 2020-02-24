@@ -3,14 +3,8 @@ layout: default
 title: Boost Pads
 permalink: /pages/udk/boost-pads
 ---
-{% assign last_modified_at = "21 Feb, 2020"%}
+{% assign last_modified_at = "24 Feb, 2020"%}
 # Boost Pads
-
----
-
-#### Limitations
-
-###### - This only works properly for the host, all other clients won't see the FX but do get the Boost.
 
 ---
 
@@ -20,6 +14,17 @@ permalink: /pages/udk/boost-pads
 
 ###### - [Dummy Classes](/pages/assets/dummy-classes "Dummy Classes")
 ###### - [Dummy Assets ( PARK_P )](/pages/assets/dummy-assets "Dummy Assets")
+
+#### Prerequisites
+
+---
+
+###### - Modify ```Actor.uc```, this is located in your ```UDK/Development/Src/Engine/Classes``` folder
+###### - Find the ```bNoDelete``` bool
+###### - The line looks like this ```var const bool	bNoDelete; // Cannot be deleted during play.```
+###### - Add parentheses after ```var```
+###### - So the line will now look like this ```var() const bool	bNoDelete; // Cannot be deleted during play.```
+###### - Compile your scripts
 
 #### Setup
 
@@ -34,7 +39,9 @@ permalink: /pages/udk/boost-pads
 ###### - Set the Boost Type to ```BoostType_Pill```
 ###### - Set the Respawn Delay to ```10```
 ###### - Browse to your ```Park_P``` package and drag ```BoostPill_FXActor``` into your scene, place it at the same location as your ```VehiclePickup_Boost_TA```
-###### - Type the name of the FXActor you just placed in the FXActor input ( You can see the name by selecting it )
+###### - Open the Properties window of the FXActor, check ```No Delete``` under Actor ( This makes sure it's also visible by other clients! )
+   ![FXActor Example](/assets/img/fxactor_example.png "FXActor Example")
+###### - Type the name of the FXActor you just placed in the FXActor input of the ```VehiclePickUp_Boost``` properties ( You can see the name by selecting it )
 ###### - And that's it! You now have a fully working Boost Pad
 ###### ***NOTE: Keep in mind that if you save the map under a different name the reference to the FXActor will be gone, however it will still work if you rename your map outside of UDK***
 

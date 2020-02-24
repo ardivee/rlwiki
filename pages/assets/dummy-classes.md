@@ -4,12 +4,11 @@ title: Dummy Classes
 permalink: /pages/assets/dummy-classes
 ---
 {% assign last_modified_at = "21 Feb, 2020"%}
-# Dummy Classes
+# Dummy Classes ( V3 )
 
 ---
 
 ###### Dummy Classes are used as a placeholder for the actual Rocket League Classes, this way we can setup our maps!
-##### *NOTE: These are updated classes ( V3 )*
 
 #### Dummy Classes V2
 
