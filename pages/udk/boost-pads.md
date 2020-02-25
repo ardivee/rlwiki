@@ -43,7 +43,7 @@ permalink: /pages/udk/boost-pads
    ![FXActor Example](/assets/img/fxactor_example.png "FXActor Example")
 ###### - Type the name of the FXActor you just placed in the FXActor input of the ```VehiclePickUp_Boost``` properties ( You can see the name by selecting it )
 ###### - And that's it! You now have a fully working Boost Pad
-###### ***NOTE: Keep in mind that if you save the map under a different name the reference to the FXActor will be gone, however it will still work if you rename your map outside of UDK***
+###### <span style="color:red;">***NOTE: Keep in mind that if you save the map under a different name the reference to the FXActor will be gone, however it will still work if you rename your map outside of UDK***</span>
 
 ##### Example
 
@@ -58,5 +58,12 @@ permalink: /pages/udk/boost-pads
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pad | 0.12 | Boost_Pickup_Pad_Local | BoostType_Pad | 4 | BoostPad_FXActor |
 | Pill | 9999 | Boost_Pickup_Pill_Local | BoostType_Pill | 10 | BoostPill_FXActor |
+
+#### Credits
+
+---
+
+###### - Eliot ( UE Explorer )
+###### - Martinn ( UPK Decryptor )
 
 **Last Updated: {{ last_modified_at }}**
