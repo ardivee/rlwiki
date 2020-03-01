@@ -20,5 +20,7 @@
   name: udk
   link: /pages/udk
   sub-category:
+    - name: Setup Classes
+      link: /pages/udk/setup-classes
     - name: Boost Pads
       link: /pages/udk/boost-pads

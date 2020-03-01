@@ -2,8 +2,17 @@
 layout: default
 title: Boost Pads
 permalink: /pages/udk/boost-pads
+toc:
+   - name: Requirements
+     link: requirements
+   - name: Setup
+     link: setup
+   - name: Info
+     link: info
+   - name: Credits
+     link: credits
 ---
-{% assign last_modified_at = "24 Feb, 2020"%}
+{% assign last_modified_at = "1 Mar, 2020"%}
 # Boost Pads
 
 ---
@@ -14,17 +23,7 @@ permalink: /pages/udk/boost-pads
 
 ###### - [Dummy Classes](/pages/assets/dummy-classes "Dummy Classes")
 ###### - [Dummy Assets ( PARK_P )](/pages/assets/dummy-assets "Dummy Assets")
-
-#### Prerequisites
-
----
-
-###### - Modify ```Actor.uc```, this is located in your ```UDK/Development/Src/Engine/Classes``` folder
-###### - Find the ```bNoDelete``` bool
-###### - The line looks like this ```var const bool	bNoDelete; // Cannot be deleted during play.```
-###### - Add parentheses after ```var```
-###### - So the line will now look like this ```var() const bool	bNoDelete; // Cannot be deleted during play.```
-###### - Compile your scripts
+###### - [Setup Classes](/pages/udk/setup-classes "Setup Classes") 
 
 #### Setup
 

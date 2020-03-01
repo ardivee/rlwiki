@@ -1,9 +1,20 @@
 <main>
     <div class="container">
         <div class="row">
-            <div class="section col s12">
+            <div class="section col s12 m11 xl11">
                 {{ content }}
             </div>
+            {% if page.toc %}
+            <div class="col hide-on-small-only m1 xl1">
+                <div class="toc-wrapper pinned">
+                   <ul class="table-of-contents">
+                    {% for item in page.toc %}
+                    <li><a href="#{{item.link}}" {% if item.active %} class="active"{% endif %}>{{item.name}}</a></li>
+                    {% endfor %}
+                   </ul>
+                </div>
+          </div>
+          {% endif %}
         </div>
     </div>
 </main>

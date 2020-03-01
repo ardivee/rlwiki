@@ -2,6 +2,11 @@
 layout: default
 title: Dummy Classes
 permalink: /pages/assets/dummy-classes
+toc:
+   - name: Dummy Classes V2
+     link: dummy-classes-v2
+   - name: Installation
+     link: installation
 ---
 {% assign last_modified_at = "21 Feb, 2020"%}
 # Dummy Classes ( V3 )

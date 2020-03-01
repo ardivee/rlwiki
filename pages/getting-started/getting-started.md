@@ -17,7 +17,8 @@ permalink: /pages/getting-started
     - &bull; Pick any project name u like or leave it at default
 
 3. <p></p> [Setup Dummy Classes](/pages/assets/dummy-classes "Dummy Classes") 
-4. Enjoy?
+4. <p></p> [Setup Classes](/pages/udk/setup-classes "Setup Classes") 
+5. Enjoy?
 
 
 ![Unreal Development Kit](/assets/img/udk-logo.png "Unreal Development Kit")
