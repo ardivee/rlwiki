@@ -12,7 +12,7 @@ toc:
    - name: Credits
      link: credits
 ---
-{% assign last_modified_at = "1 Mar, 2020"%}
+{% assign last_modified_at = "10 May, 2020"%}
 # Boost Pads
 
 ---
@@ -28,11 +28,12 @@ toc:
 #### Setup
 
 ---
+###### <span style="text-decoration:underline;font-weight:bold;">In this example we are using the Pill Boost ( More info below )</span>
 
-###### - Open your Actor Classes window 
-###### - Search for ```VehiclePickup_Boost_TA``` and drag it into your scene
+###### - Open your Content Browser
+###### - Browse to your ```Park_P``` package, locate ```VehiclePickup_BoostPill``` and drag it into your scene
 ###### - Press F4 to open the Properties window or use Right Click > Properties
-###### - Choose the type of boost you want to use ( In this example we are using the Pill Boost )
+###### - Set the Z Location to 73 above your ground
 ###### - Set the Boost Amount to ```9999```
 ###### - Browse to your ```Park_P``` package, locate ```Boost_Pickup_Pill_Local``` and press the Green Arrow to use it
 ###### - Set the Boost Type to ```BoostType_Pill```
@@ -53,10 +54,10 @@ toc:
 ---
 
 {:.responsive-table}
-| Boost | Boost Amount | Local Pickup Sound | Boost Type | Respawn Delay | FXActor |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| Pad | 0.12 | Boost_Pickup_Pad_Local | BoostType_Pad | 4 | BoostPad_FXActor |
-| Pill | 9999 | Boost_Pickup_Pill_Local | BoostType_Pill | 10 | BoostPill_FXActor |
+| Boost | Archetype | Z Location | Boost Amount | Local Pickup Sound | Boost Type | Respawn Delay | FXActor |
+| ----------- | ----------- | ----------- |----------- | ----------- | ----------- | ----------- |
+| Pad | VehiclePickup_BoostPad | 70 | 0.12 | Boost_Pickup_Pad_Local | BoostType_Pad | 4 | BoostPad_FXActor |
+| Pill | VehiclePickup_BoostPill| 73 | 9999 | Boost_Pickup_Pill_Local | BoostType_Pill | 10 | BoostPill_FXActor |
 
 #### Credits
 
@@ -64,5 +65,6 @@ toc:
 
 ###### - Eliot ( UE Explorer )
 ###### - Martinn ( UPK Decryptor )
+###### - Gidek ( Boostpad Collisions )
 
 **Last Updated: {{ last_modified_at }}**
